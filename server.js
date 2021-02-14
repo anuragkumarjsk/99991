@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 const  mongoose  = require('mongoose');
-const uri = "mongodb+srv://user1:password@572103@cluster0.gs6mn.mongodb.net/B-Kisan?retryWrites=true&w=majority" 
+const uri =
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
