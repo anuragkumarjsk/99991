@@ -1,0 +1,69 @@
+.tablebox{
+    display: flex;
+    width: 100vw;
+    margin: 0px 10px 0px 10px;
+    background-color: cornflowerblue;
+    justify-content: stretch;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.tablecell{
+    padding: 4px;
+    flex-grow: 4;
+    width:15vw;
+}
+.inp{
+min-width: 7vw !important;
+text-align: center;
+
+}
+
+.del_cont{
+    min-width:90vw ; 
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.del_dat{
+    padding:0px 10px 0px 10px;
+    background:rgba(200, 247, 197, 1); 
+    padding:10px;
+    border-radius: 6px;
+    border: 1px solid rgba(123, 239, 178, 1);
+    align-items: center;
+    align-content: center;
+    min-width: 33vw;
+    /* flex-grow: 1; */
+}
+.del_add{
+    padding:0px 10px 0px 10px;
+    background:rgba(200, 247, 197, 1); 
+    padding:10px;
+    border-radius: 6px;
+    border: 1px solid rgba(123, 239, 178, 1);
+    align-items: center;
+    align-content: center;
+    min-width: 33vw;
+    /* flex-grow: 1; */
+}
+
+
+
+
+
+.btn_add{
+    padding:5px 10px 5px 10px;
+    background-color:cornsilk;
+    border-radius: 7px;
+    border: 1px solid rgba(46, 49, 49, 1);
+}
+.del_btn{
+    background-color: rgb(221, 67, 67);
+    color: antiquewhite;
+    margin:2px 0px 2px 0px;
+    border-radius: 7px;
+    border: 1px solid rgba(46, 49, 49, 1);
+
+}

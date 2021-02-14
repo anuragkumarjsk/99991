@@ -1,0 +1,38 @@
+
+.crnav{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+border: 1px solid black;
+background-color: rgba(200, 247, 197, 1);
+padding: 7px;
+}
+.divleft{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+    flex-wrap: wrap;
+    min-height: 50px;
+    max-height: 150px;
+}
+.divleft input{
+    min-width: 20vw;
+    max-width: 30vw;
+    min-height: 5vh;
+    max-height: 10vh;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    /* text-align: center; */
+}
+
+.divright{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50px;
+    max-height: 150px;
+}
